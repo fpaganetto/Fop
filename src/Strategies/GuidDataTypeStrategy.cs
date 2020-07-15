@@ -3,7 +3,7 @@ using Fop.Filter;
 
 namespace Fop.Strategies
 {
-    public class GuidTypeStrategy : IFilterDataTypeStrategy
+    public class GuidDataTypeStrategy : IFilterDataTypeStrategy
     {
         public string ConvertFilterToText(IFilter filter)
         {
